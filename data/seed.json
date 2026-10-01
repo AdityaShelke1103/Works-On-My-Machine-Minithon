@@ -1,0 +1,2224 @@
+{
+  "items": [
+    {
+      "id": "i001",
+      "sourceType": "article",
+      "source": "Orion Labs Blog",
+      "sourceDomain": "orionlabs.example",
+      "credibility": "official",
+      "author": "Orion Labs",
+      "title": "Introducing Orion-4: our most capable reasoning model",
+      "content": "Today we are releasing Orion-4, a new AI model with major gains in reasoning, coding and multimodal understanding. Orion-4 scores 89% on the GradeBench reasoning benchmark, up from 71% for Orion-3. The model is available via API starting today, with a free tier for students and researchers. Orion-4 supports a 1 million token context window.",
+      "url": "https://orionlabs.example/introducing-orion-4-our-most-capable-reasoning-model-i001",
+      "timestamp": "2026-09-30T21:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i002",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Priya Nair",
+      "title": "Orion Labs launches Orion-4 AI model, claims big jump in reasoning",
+      "content": "Orion Labs on Wednesday launched Orion-4, an AI model the company says sharply improves reasoning and coding. The startup said Orion-4 scored 89% on the GradeBench benchmark. Analysts said the launch intensifies competition among large language model developers. A free tier will be offered to students.",
+      "url": "https://globalwire.example/orion-labs-launches-orion-4-ai-model-claims-big-jump-in-reas-i002",
+      "timestamp": "2026-09-30T21:40:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i003",
+      "sourceType": "news",
+      "source": "Metro Times",
+      "sourceDomain": "metrotimes.example",
+      "credibility": "high",
+      "author": "Global Wire",
+      "title": "Orion Labs launches Orion-4 AI model, claims big jump in reasoning",
+      "content": "Orion Labs on Wednesday launched Orion-4, an AI model the company says sharply improves reasoning and coding. The startup said Orion-4 scored 89% on the GradeBench benchmark. Analysts said the launch intensifies competition among large language model developers. A free tier will be offered to students.",
+      "url": "https://metrotimes.example/orion-labs-launches-orion-4-ai-model-claims-big-jump-in-reas-i003",
+      "timestamp": "2026-09-30T22:15:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i004",
+      "sourceType": "article",
+      "source": "TechPulse",
+      "sourceDomain": "techpulse.example",
+      "credibility": "medium",
+      "author": "Kabir Sethi",
+      "title": "Hands-on with Orion-4: the reasoning model is fast, but not flawless",
+      "content": "We spent three hours testing Orion-4, the new AI model from Orion Labs. Coding answers were noticeably better than Orion-3 and the 1 million token context window handled our full codebase. It still hallucinated two citations. The free student tier makes Orion-4 an easy recommendation for developers.",
+      "url": "https://techpulse.example/hands-on-with-orion-4-the-reasoning-model-is-fast-but-not-fl-i004",
+      "timestamp": "2026-09-30T23:05:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i005",
+      "sourceType": "article",
+      "source": "ByteDaily",
+      "sourceDomain": "bytedaily.example",
+      "credibility": "medium",
+      "author": "Staff",
+      "title": "Orion-4 vs the rest: what the new AI model means for developers",
+      "content": "Orion Labs' Orion-4 model claims 89% on GradeBench reasoning. For developers the key changes are cheaper API pricing, a 1 million token context window and better tool use. Students get a free tier of the Orion-4 API.",
+      "url": "https://bytedaily.example/orion-4-vs-the-rest-what-the-new-ai-model-means-for-develope-i005",
+      "timestamp": "2026-10-01T06:20:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i006",
+      "sourceType": "reddit",
+      "source": "Reddit",
+      "sourceDomain": "reddit.com",
+      "credibility": "unverified",
+      "author": "u/gradient_descent_42",
+      "title": "[D] Orion-4 is out — first impressions from r/MachineLearning",
+      "content": "Orion-4 just dropped. Tried it on my ML assignment proofs and the reasoning is clearly better than Orion-3. GradeBench 89% seems legit from my tests. Anyone benchmarked the 1M context?",
+      "url": "https://reddit.com/-d-orion-4-is-out-first-impressions-from-r-machinelearning-i006",
+      "timestamp": "2026-10-01T00:40:00+05:30",
+      "metadata": {
+        "likes": 2300,
+        "comments": 410
+      }
+    },
+    {
+      "id": "i007",
+      "sourceType": "youtube",
+      "source": "YouTube",
+      "sourceDomain": "youtube.com",
+      "credibility": "unverified",
+      "author": "AI Unboxed",
+      "title": "Orion-4 FULL REVIEW: Is this the best AI model yet?",
+      "content": "In this video we test Orion Labs' new Orion-4 AI model on coding, math and reasoning tasks and compare it with Orion-3. Free tier for students explained.",
+      "url": "https://youtube.com/orion-4-full-review-is-this-the-best-ai-model-yet--i007",
+      "timestamp": "2026-10-01T07:10:00+05:30",
+      "metadata": {
+        "views": 184000,
+        "likes": 9100
+      }
+    },
+    {
+      "id": "i008",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@orionlabs",
+      "title": "Orion-4 is live",
+      "content": "Orion-4 is live. Better reasoning, better coding, 1M context. Free for students. Try the Orion-4 API today.",
+      "url": "https://x.com/orion-4-is-live-i008",
+      "timestamp": "2026-09-30T21:12:00+05:30",
+      "metadata": {
+        "likes": 41000,
+        "shares": 8800
+      }
+    },
+    {
+      "id": "i009",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Ananya Rao",
+      "title": "Parliamentary panel approves draft AI Accountability Bill",
+      "content": "A parliamentary standing committee approved the draft AI Accountability Bill, which would require companies deploying high-risk AI systems to register them and publish risk assessments. Under the committee draft, violations carry fines of up to 2% of annual turnover. The AI Accountability Bill now goes to Parliament in the winter session.",
+      "url": "https://globalwire.example/parliamentary-panel-approves-draft-ai-accountability-bill-i009",
+      "timestamp": "2026-09-30T18:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i010",
+      "sourceType": "news",
+      "source": "The Ledger",
+      "sourceDomain": "theledger.example",
+      "credibility": "high",
+      "author": "Vikram Joshi",
+      "title": "AI Accountability Bill: what companies must do under the new AI regulation",
+      "content": "The draft AI Accountability Bill approved by a parliamentary panel creates registration rules for high-risk AI systems. Companies face fines of up to 2% of annual turnover. Startups under a revenue threshold would be exempt from the AI regulation for two years.",
+      "url": "https://theledger.example/ai-accountability-bill-what-companies-must-do-under-the-new--i010",
+      "timestamp": "2026-09-30T19:45:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i011",
+      "sourceType": "article",
+      "source": "TrendTalk",
+      "sourceDomain": "trendtalk.example",
+      "credibility": "low",
+      "author": "Staff",
+      "title": "SHOCKING: AI Accountability Bill will fine companies 10% of revenue",
+      "content": "The new AI Accountability Bill approved by the parliamentary panel will fine companies up to 10% of revenue and could ban AI chatbots entirely, sources claim. The AI regulation for high-risk AI systems is the strictest in the world.",
+      "url": "https://trendtalk.example/shocking-ai-accountability-bill-will-fine-companies-10-of-re-i011",
+      "timestamp": "2026-10-01T07:30:00+05:30",
+      "metadata": {
+        "likes": 15000,
+        "shares": 6100
+      }
+    },
+    {
+      "id": "i012",
+      "sourceType": "article",
+      "source": "TechPulse",
+      "sourceDomain": "techpulse.example",
+      "credibility": "medium",
+      "author": "Meera Iyer",
+      "title": "AI Accountability Bill explained for developers and students",
+      "content": "What does the AI Accountability Bill mean for developers? The AI regulation focuses on high-risk AI systems such as hiring, lending and healthcare. Fines are capped at 2% of annual turnover according to the committee draft. Student and research projects are not covered.",
+      "url": "https://techpulse.example/ai-accountability-bill-explained-for-developers-and-students-i012",
+      "timestamp": "2026-10-01T08:05:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i013",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@policywatch_in",
+      "title": "AI Bill thread",
+      "content": "Thread on the AI Accountability Bill: registration for high-risk AI systems, 2% turnover fines, startup exemption for two years. Not a chatbot ban despite viral claims.",
+      "url": "https://x.com/ai-bill-thread-i013",
+      "timestamp": "2026-10-01T08:20:00+05:30",
+      "metadata": {
+        "likes": 1200,
+        "shares": 300
+      }
+    },
+    {
+      "id": "i014",
+      "sourceType": "news",
+      "source": "Sports Desk 24",
+      "sourceDomain": "sportsdesk24.example",
+      "credibility": "medium",
+      "author": "Rahul Menon",
+      "title": "Arsenal agree deal to sign striker Lucas Moreau",
+      "content": "Arsenal have agreed a deal to sign French striker Lucas Moreau from Lyon for a fee of €80m. Moreau, 23, scored 27 goals last season. The Arsenal transfer is expected to be completed after a medical this week.",
+      "url": "https://sportsdesk24.example/arsenal-agree-deal-to-sign-striker-lucas-moreau-i014",
+      "timestamp": "2026-09-30T20:10:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i015",
+      "sourceType": "article",
+      "source": "GoalLine",
+      "sourceDomain": "goalline.example",
+      "credibility": "medium",
+      "author": "Tom Fields",
+      "title": "Lucas Moreau to Arsenal: fee, contract and how he fits",
+      "content": "Lucas Moreau will join Arsenal for €65m plus add-ons, with a five-year contract. The striker gives Arsenal a focal point up front. Lyon accepted the Arsenal offer on Wednesday evening.",
+      "url": "https://goalline.example/lucas-moreau-to-arsenal-fee-contract-and-how-he-fits-i015",
+      "timestamp": "2026-09-30T21:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i016",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Sports Staff",
+      "title": "Arsenal sign Lucas Moreau from Lyon",
+      "content": "Arsenal have completed the signing of striker Lucas Moreau from Lyon. The club did not disclose the fee; reports range from €65m to €80m. Moreau signed a five-year contract with Arsenal.",
+      "url": "https://globalwire.example/arsenal-sign-lucas-moreau-from-lyon-i016",
+      "timestamp": "2026-10-01T06:45:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i017",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@TransferGuru",
+      "title": "HERE WE GO",
+      "content": "HERE WE GO! Lucas Moreau to Arsenal, €80m, medical booked. Arsenal transfer done deal.",
+      "url": "https://x.com/here-we-go-i017",
+      "timestamp": "2026-09-30T19:55:00+05:30",
+      "metadata": {
+        "likes": 88000,
+        "shares": 21000
+      }
+    },
+    {
+      "id": "i018",
+      "sourceType": "reddit",
+      "source": "Reddit",
+      "sourceDomain": "reddit.com",
+      "credibility": "unverified",
+      "author": "u/gooner_since_04",
+      "title": "Lucas Moreau signs for Arsenal — discussion thread",
+      "content": "Moreau to Arsenal is official-ish. 27 goals last season for Lyon. Fee reports are all over the place, €65m or €80m?",
+      "url": "https://reddit.com/lucas-moreau-signs-for-arsenal-discussion-thread-i018",
+      "timestamp": "2026-09-30T22:30:00+05:30",
+      "metadata": {
+        "likes": 5400,
+        "comments": 1900
+      }
+    },
+    {
+      "id": "i019",
+      "sourceType": "youtube",
+      "source": "YouTube",
+      "sourceDomain": "youtube.com",
+      "credibility": "unverified",
+      "author": "GoalLine TV",
+      "title": "Why Lucas Moreau is PERFECT for Arsenal",
+      "content": "Tactical breakdown of Arsenal's new striker Lucas Moreau and how he fits Arsenal's system.",
+      "url": "https://youtube.com/why-lucas-moreau-is-perfect-for-arsenal-i019",
+      "timestamp": "2026-10-01T07:40:00+05:30",
+      "metadata": {
+        "views": 92000
+      }
+    },
+    {
+      "id": "i020",
+      "sourceType": "news",
+      "source": "Sports Desk 24",
+      "sourceDomain": "sportsdesk24.example",
+      "credibility": "medium",
+      "author": "Rahul Menon",
+      "title": "Arsenal beat Inter 3-1 in Champions League",
+      "content": "Arsenal beat Inter 3-1 at the Emirates in the Champions League group stage. Saka scored twice and Arsenal top the group with six points.",
+      "url": "https://sportsdesk24.example/arsenal-beat-inter-3-1-in-champions-league-i020",
+      "timestamp": "2026-09-30T23:55:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i021",
+      "sourceType": "article",
+      "source": "GoalLine",
+      "sourceDomain": "goalline.example",
+      "credibility": "medium",
+      "author": "Tom Fields",
+      "title": "Arsenal 3-1 Inter: player ratings and talking points",
+      "content": "Bukayo Saka starred with two goals as Arsenal beat Inter 3-1 in the Champions League. Arsenal are top of the group after two games.",
+      "url": "https://goalline.example/arsenal-3-1-inter-player-ratings-and-talking-points-i021",
+      "timestamp": "2026-10-01T00:20:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i022",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Sports Staff",
+      "title": "Saka double sends Arsenal top of Champions League group",
+      "content": "Bukayo Saka scored twice as Arsenal beat Inter 3-1 in the Champions League on Wednesday night.",
+      "url": "https://globalwire.example/saka-double-sends-arsenal-top-of-champions-league-group-i022",
+      "timestamp": "2026-10-01T00:05:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i023",
+      "sourceType": "news",
+      "source": "The Ledger",
+      "sourceDomain": "theledger.example",
+      "credibility": "high",
+      "author": "Neha Kulkarni",
+      "title": "Pune startup Kitebird raises $40 million Series B",
+      "content": "Kitebird, a Pune-based logistics AI startup, raised $40 million in a Series B round led by Horizon Ventures. Kitebird will use the funding to hire 200 engineers and expand to Southeast Asia.",
+      "url": "https://theledger.example/pune-startup-kitebird-raises-40-million-series-b-i023",
+      "timestamp": "2026-09-30T17:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i024",
+      "sourceType": "article",
+      "source": "ByteDaily",
+      "sourceDomain": "bytedaily.example",
+      "credibility": "medium",
+      "author": "Staff",
+      "title": "Kitebird bags $40M to scale AI-powered logistics",
+      "content": "Kitebird has raised $40 million in Series B funding. The Pune startup plans to hire 200 engineers, including fresh graduates, over the next year.",
+      "url": "https://bytedaily.example/kitebird-bags-40m-to-scale-ai-powered-logistics-i024",
+      "timestamp": "2026-09-30T18:40:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i025",
+      "sourceType": "notification",
+      "source": "LinkedIn",
+      "sourceDomain": "linkedin.com",
+      "credibility": "medium",
+      "author": "Kitebird",
+      "title": "We're hiring! 200 engineering roles",
+      "content": "Kitebird is hiring 200 engineers after our $40M Series B. Graduate and internship roles open in Pune.",
+      "url": "https://linkedin.com/we-re-hiring-200-engineering-roles-i025",
+      "timestamp": "2026-10-01T08:10:00+05:30",
+      "metadata": {
+        "likes": 3200
+      }
+    },
+    {
+      "id": "i026",
+      "sourceType": "news",
+      "source": "Pune Mirror Online",
+      "sourceDomain": "punemirror.example",
+      "credibility": "medium",
+      "author": "City Desk",
+      "title": "Kitebird funding a boost for Pune's startup scene",
+      "content": "Kitebird's $40 million Series B is the largest Pune startup funding round this quarter. Kitebird plans to hire 200 engineers in the city.",
+      "url": "https://punemirror.example/kitebird-funding-a-boost-for-pune-s-startup-scene-i026",
+      "timestamp": "2026-10-01T09:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i027",
+      "sourceType": "news",
+      "source": "Weather Bureau",
+      "sourceDomain": "weather.gov.example",
+      "credibility": "official",
+      "author": "Weather Bureau",
+      "title": "Orange alert for heavy rain in Pune on October 2",
+      "content": "The Weather Bureau has issued an orange alert for heavy rain in Pune district on October 2. Rainfall of 70 to 110 mm is expected. Citizens are advised to avoid low-lying areas.",
+      "url": "https://weather.gov.example/orange-alert-for-heavy-rain-in-pune-on-october-2-i027",
+      "timestamp": "2026-10-01T05:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i028",
+      "sourceType": "article",
+      "source": "ViralHub",
+      "sourceDomain": "viralhub.example",
+      "credibility": "low",
+      "author": "Staff",
+      "title": "Pune colleges CLOSED tomorrow due to heavy rain alert",
+      "content": "All Pune colleges and schools will remain closed tomorrow due to the heavy rain alert, according to a message circulating on WhatsApp. Exams are postponed.",
+      "url": "https://viralhub.example/pune-colleges-closed-tomorrow-due-to-heavy-rain-alert-i028",
+      "timestamp": "2026-10-01T07:50:00+05:30",
+      "metadata": {
+        "likes": 22000,
+        "shares": 14000
+      }
+    },
+    {
+      "id": "i029",
+      "sourceType": "news",
+      "source": "District Collector Office",
+      "sourceDomain": "pune.gov.example",
+      "credibility": "official",
+      "author": "Collector, Pune",
+      "title": "No closure of colleges announced for October 2 — Collector",
+      "content": "The District Collector clarified that no closure of colleges or schools has been announced for October 2 despite the heavy rain alert. Messages claiming colleges are closed are false. Exams will proceed as scheduled unless institutions announce otherwise.",
+      "url": "https://pune.gov.example/no-closure-of-colleges-announced-for-october-2-collector-i029",
+      "timestamp": "2026-10-01T09:10:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i030",
+      "sourceType": "news",
+      "source": "Metro Times",
+      "sourceDomain": "metrotimes.example",
+      "credibility": "high",
+      "author": "City Desk",
+      "title": "Pune rain alert: Collector denies viral college closure message",
+      "content": "Pune's District Collector denied a viral message claiming colleges are closed on October 2. The Weather Bureau's orange alert for heavy rain remains in force, with up to 110 mm expected.",
+      "url": "https://metrotimes.example/pune-rain-alert-collector-denies-viral-college-closure-messa-i030",
+      "timestamp": "2026-10-01T09:40:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i031",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Class of 2027 (group)",
+      "title": "Forwarded: colleges closed tomorrow??",
+      "content": "Forwarded many times: All Pune colleges closed tomorrow due to rain, exams postponed. Is this true?? Anyone confirm",
+      "url": "https://whatsapp.com/forwarded-colleges-closed-tomorrow--i031",
+      "timestamp": "2026-10-01T08:05:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i032",
+      "sourceType": "reddit",
+      "source": "Reddit",
+      "sourceDomain": "reddit.com",
+      "credibility": "unverified",
+      "author": "u/throwaway_swe_in",
+      "title": "Nimbus Labs hiring freeze? Heard internships are cancelled",
+      "content": "A friend at Nimbus Labs says there's a hiring freeze and internship offers are being cancelled. Anyone with a Nimbus Labs interview this week heard anything?",
+      "url": "https://reddit.com/nimbus-labs-hiring-freeze-heard-internships-are-cancelled-i032",
+      "timestamp": "2026-09-30T23:15:00+05:30",
+      "metadata": {
+        "likes": 860,
+        "comments": 240
+      }
+    },
+    {
+      "id": "i033",
+      "sourceType": "article",
+      "source": "TrendTalk",
+      "sourceDomain": "trendtalk.example",
+      "credibility": "low",
+      "author": "Staff",
+      "title": "Nimbus Labs freezes hiring, cancels internships: report",
+      "content": "Nimbus Labs has frozen all hiring and cancelled internship programs, according to posts on Reddit.",
+      "url": "https://trendtalk.example/nimbus-labs-freezes-hiring-cancels-internships-report-i033",
+      "timestamp": "2026-10-01T07:15:00+05:30",
+      "metadata": {
+        "likes": 4100
+      }
+    },
+    {
+      "id": "i034",
+      "sourceType": "article",
+      "source": "Nimbus Labs Newsroom",
+      "sourceDomain": "nimbuslabs.example",
+      "credibility": "official",
+      "author": "Nimbus Labs",
+      "title": "Update on Nimbus Labs campus hiring and internships",
+      "content": "Nimbus Labs is not freezing hiring. Our 2027 internship program and all scheduled campus interviews continue as planned. We have paused only senior hiring in one business unit.",
+      "url": "https://nimbuslabs.example/update-on-nimbus-labs-campus-hiring-and-internships-i034",
+      "timestamp": "2026-10-01T09:05:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i035",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Tech Desk",
+      "title": "Nimbus Labs denies internship cancellation rumours",
+      "content": "Nimbus Labs denied reports of a hiring freeze, saying campus internship interviews will continue as planned. The company paused senior hiring in one unit.",
+      "url": "https://globalwire.example/nimbus-labs-denies-internship-cancellation-rumours-i035",
+      "timestamp": "2026-10-01T09:50:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i036",
+      "sourceType": "article",
+      "source": "arXiv",
+      "sourceDomain": "arxiv.example",
+      "credibility": "high",
+      "author": "Lee, Okafor, Banerjee",
+      "title": "Distilled reasoning: small language models match large models on GradeBench",
+      "content": "We show that a 3B parameter model distilled with chain-of-thought supervision matches 70B models on GradeBench reasoning. Distillation with gradient matching closes most of the reasoning gap. Code and weights are released.",
+      "url": "https://arxiv.example/distilled-reasoning-small-language-models-match-large-models-i036",
+      "timestamp": "2026-09-30T20:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i037",
+      "sourceType": "reddit",
+      "source": "Reddit",
+      "sourceDomain": "reddit.com",
+      "credibility": "unverified",
+      "author": "u/ml_phd_life",
+      "title": "[R] Distilled 3B model matches 70B on GradeBench reasoning",
+      "content": "New paper: distilled 3B small language model matches 70B on GradeBench reasoning using gradient matching distillation. Weights released. Huge for students with one GPU.",
+      "url": "https://reddit.com/-r-distilled-3b-model-matches-70b-on-gradebench-reasoning-i037",
+      "timestamp": "2026-10-01T01:10:00+05:30",
+      "metadata": {
+        "likes": 1800,
+        "comments": 220
+      }
+    },
+    {
+      "id": "i038",
+      "sourceType": "youtube",
+      "source": "YouTube",
+      "sourceDomain": "youtube.com",
+      "credibility": "unverified",
+      "author": "Paper Explained",
+      "title": "Small models beat big ones? Distilled reasoning paper explained",
+      "content": "We explain the distilled reasoning paper showing a 3B small language model matching 70B models on GradeBench using gradient matching.",
+      "url": "https://youtube.com/small-models-beat-big-ones-distilled-reasoning-paper-explain-i038",
+      "timestamp": "2026-10-01T08:30:00+05:30",
+      "metadata": {
+        "views": 31000
+      }
+    },
+    {
+      "id": "i039",
+      "sourceType": "news",
+      "source": "The Ledger",
+      "sourceDomain": "theledger.example",
+      "credibility": "high",
+      "author": "Markets Desk",
+      "title": "Bitcoin hits record high above $150,000",
+      "content": "Bitcoin crossed $150,000 for the first time, extending a crypto rally driven by ETF inflows. Other crypto tokens also rose.",
+      "url": "https://theledger.example/bitcoin-hits-record-high-above-150-000-i039",
+      "timestamp": "2026-10-01T06:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i040",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@cryptomoonboy",
+      "title": "BTC 150K!!!",
+      "content": "BITCOIN 150K!!! Crypto to the moon. If you're not in crypto now you'll regret it forever.",
+      "url": "https://x.com/btc-150k--i040",
+      "timestamp": "2026-10-01T06:30:00+05:30",
+      "metadata": {
+        "likes": 120000,
+        "shares": 45000
+      }
+    },
+    {
+      "id": "i041",
+      "sourceType": "youtube",
+      "source": "YouTube",
+      "sourceDomain": "youtube.com",
+      "credibility": "unverified",
+      "author": "Crypto Daily",
+      "title": "Bitcoin $150K — what's NEXT for crypto?",
+      "content": "Bitcoin just hit a record $150,000. Here's my crypto price prediction for the rest of the year.",
+      "url": "https://youtube.com/bitcoin-150k-what-s-next-for-crypto--i041",
+      "timestamp": "2026-10-01T07:00:00+05:30",
+      "metadata": {
+        "views": 640000,
+        "likes": 31000
+      }
+    },
+    {
+      "id": "i042",
+      "sourceType": "article",
+      "source": "ViralHub",
+      "sourceDomain": "viralhub.example",
+      "credibility": "low",
+      "author": "Staff",
+      "title": "Students are getting rich from crypto — here's how",
+      "content": "With Bitcoin at $150,000, students are turning to crypto trading apps. Here's how to start with crypto.",
+      "url": "https://viralhub.example/students-are-getting-rich-from-crypto-here-s-how-i042",
+      "timestamp": "2026-10-01T07:20:00+05:30",
+      "metadata": {
+        "likes": 9000
+      }
+    },
+    {
+      "id": "i043",
+      "sourceType": "social",
+      "source": "Instagram",
+      "sourceDomain": "instagram.com",
+      "credibility": "unverified",
+      "author": "@bollywoodbuzz",
+      "title": "Inside Kiara & Arman's wedding",
+      "content": "First pictures from Kiara and Arman's dreamy wedding in Udaipur! Celebrity wedding of the year.",
+      "url": "https://instagram.com/inside-kiara-arman-s-wedding-i043",
+      "timestamp": "2026-10-01T07:05:00+05:30",
+      "metadata": {
+        "likes": 2400000,
+        "shares": 310000
+      }
+    },
+    {
+      "id": "i044",
+      "sourceType": "article",
+      "source": "ViralHub",
+      "sourceDomain": "viralhub.example",
+      "credibility": "low",
+      "author": "Entertainment",
+      "title": "Kiara and Arman wedding: every celebrity guest",
+      "content": "Every celebrity at Kiara and Arman's Udaipur wedding, from the sangeet to the reception.",
+      "url": "https://viralhub.example/kiara-and-arman-wedding-every-celebrity-guest-i044",
+      "timestamp": "2026-10-01T07:45:00+05:30",
+      "metadata": {
+        "likes": 65000
+      }
+    },
+    {
+      "id": "i045",
+      "sourceType": "article",
+      "source": "TrendTalk",
+      "sourceDomain": "trendtalk.example",
+      "credibility": "low",
+      "author": "Entertainment",
+      "title": "Kiara–Arman wedding outfits break the internet",
+      "content": "Kiara's wedding lehenga and Arman's sherwani are trending. Celebrity wedding fashion breakdown.",
+      "url": "https://trendtalk.example/kiara-arman-wedding-outfits-break-the-internet-i045",
+      "timestamp": "2026-10-01T08:15:00+05:30",
+      "metadata": {
+        "likes": 40000
+      }
+    },
+    {
+      "id": "i046",
+      "sourceType": "article",
+      "source": "TechPulse",
+      "sourceDomain": "techpulse.example",
+      "credibility": "medium",
+      "author": "Kabir Sethi",
+      "title": "Pixelon 9 launched with satellite messaging",
+      "content": "Pixelon launched the Pixelon 9 smartphone with satellite messaging, a 6,000 mAh battery and a new camera. The Pixelon 9 starts at ₹54,999.",
+      "url": "https://techpulse.example/pixelon-9-launched-with-satellite-messaging-i046",
+      "timestamp": "2026-09-30T19:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i047",
+      "sourceType": "article",
+      "source": "ByteDaily",
+      "sourceDomain": "bytedaily.example",
+      "credibility": "medium",
+      "author": "Staff",
+      "title": "Pixelon 9 price, specs and availability",
+      "content": "The Pixelon 9 smartphone costs ₹54,999 and goes on sale October 5. Pixelon 9 has satellite messaging and a 6,000 mAh battery.",
+      "url": "https://bytedaily.example/pixelon-9-price-specs-and-availability-i047",
+      "timestamp": "2026-09-30T19:40:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i048",
+      "sourceType": "youtube",
+      "source": "YouTube",
+      "sourceDomain": "youtube.com",
+      "credibility": "unverified",
+      "author": "Tech Tushar",
+      "title": "Pixelon 9 Unboxing & First Look",
+      "content": "Unboxing the Pixelon 9 smartphone with satellite messaging. Camera samples and battery test.",
+      "url": "https://youtube.com/pixelon-9-unboxing-first-look-i048",
+      "timestamp": "2026-10-01T06:50:00+05:30",
+      "metadata": {
+        "views": 410000
+      }
+    },
+    {
+      "id": "i049",
+      "sourceType": "news",
+      "source": "Sports Desk 24",
+      "sourceDomain": "sportsdesk24.example",
+      "credibility": "medium",
+      "author": "Cricket Desk",
+      "title": "India beat Australia by 6 wickets in second ODI",
+      "content": "India beat Australia by six wickets in the second ODI to level the series 1-1. Shubman Gill scored a century.",
+      "url": "https://sportsdesk24.example/india-beat-australia-by-6-wickets-in-second-odi-i049",
+      "timestamp": "2026-09-30T22:40:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i050",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Sports Staff",
+      "title": "Gill century powers India past Australia in ODI",
+      "content": "Shubman Gill's century helped India beat Australia by six wickets to level the ODI series.",
+      "url": "https://globalwire.example/gill-century-powers-india-past-australia-in-odi-i050",
+      "timestamp": "2026-09-30T23:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i051",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@cricketfan99",
+      "title": "GILL 💯",
+      "content": "What a knock by Gill! India level the ODI series against Australia. 💯🔥",
+      "url": "https://x.com/gill--i051",
+      "timestamp": "2026-09-30T23:10:00+05:30",
+      "metadata": {
+        "likes": 54000
+      }
+    },
+    {
+      "id": "i052",
+      "sourceType": "news",
+      "source": "The Ledger",
+      "sourceDomain": "theledger.example",
+      "credibility": "high",
+      "author": "Markets Desk",
+      "title": "Sensex rises 400 points on IT stocks",
+      "content": "The Sensex rose 400 points in early trade led by IT stocks. The Nifty also gained 0.6%.",
+      "url": "https://theledger.example/sensex-rises-400-points-on-it-stocks-i052",
+      "timestamp": "2026-10-01T09:20:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i053",
+      "sourceType": "news",
+      "source": "Metro Times",
+      "sourceDomain": "metrotimes.example",
+      "credibility": "high",
+      "author": "Business Desk",
+      "title": "Markets open higher as IT stocks rally",
+      "content": "Indian stock markets opened higher with the Sensex up 400 points as IT stocks rallied.",
+      "url": "https://metrotimes.example/markets-open-higher-as-it-stocks-rally-i053",
+      "timestamp": "2026-10-01T09:45:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i054",
+      "sourceType": "news",
+      "source": "Campus Courier",
+      "sourceDomain": "courier.university.example",
+      "credibility": "official",
+      "author": "Campus Courier",
+      "title": "Hostel Wi-Fi upgrade to finish by October 10",
+      "content": "The university's IT office says the hostel Wi-Fi upgrade will be completed by October 10. Speeds will increase to 1 Gbps per block. Brief outages are expected in Hostel B this week.",
+      "url": "https://courier.university.example/hostel-wi-fi-upgrade-to-finish-by-october-10-i054",
+      "timestamp": "2026-09-30T18:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i055",
+      "sourceType": "email",
+      "source": "Gmail",
+      "sourceDomain": "mail.google.com",
+      "credibility": "high",
+      "author": "IT Services <it@university.example>",
+      "title": "Hostel B Wi-Fi maintenance today 2–4 PM",
+      "content": "Dear students, Wi-Fi in Hostel B will be unavailable today from 2 PM to 4 PM for the hostel Wi-Fi upgrade. Regards, IT Services.",
+      "url": "https://mail.google.com/hostel-b-wi-fi-maintenance-today-2-4-pm-i055",
+      "timestamp": "2026-10-01T07:00:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i056",
+      "sourceType": "article",
+      "source": "CloudNest Status",
+      "sourceDomain": "status.cloudnest.example",
+      "credibility": "official",
+      "author": "CloudNest",
+      "title": "Investigating: elevated errors in ap-south region",
+      "content": "We are investigating elevated error rates affecting CloudNest services in the ap-south region. Websites and apps hosted on CloudNest may be unavailable. Next update in 30 minutes.",
+      "url": "https://status.cloudnest.example/investigating-elevated-errors-in-ap-south-region-i056",
+      "timestamp": "2026-10-01T13:42:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i057",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@downwatch",
+      "title": "CloudNest outage",
+      "content": "Massive CloudNest outage right now — payment apps, food delivery and university portals down across India. #CloudNestDown",
+      "url": "https://x.com/cloudnest-outage-i057",
+      "timestamp": "2026-10-01T13:50:00+05:30",
+      "metadata": {
+        "likes": 31000,
+        "shares": 12000
+      }
+    },
+    {
+      "id": "i058",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Tech Desk",
+      "title": "CloudNest outage knocks apps offline across India",
+      "content": "A major CloudNest outage in the ap-south region knocked payment apps, delivery services and several university portals offline on Thursday afternoon. CloudNest said it was investigating elevated errors.",
+      "url": "https://globalwire.example/cloudnest-outage-knocks-apps-offline-across-india-i058",
+      "timestamp": "2026-10-01T14:05:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i059",
+      "sourceType": "reddit",
+      "source": "Reddit",
+      "sourceDomain": "reddit.com",
+      "credibility": "unverified",
+      "author": "u/sysadmin_pune",
+      "title": "CloudNest ap-south is down — our university exam portal too",
+      "content": "CloudNest ap-south outage has taken down our university's exam portal and hall-ticket downloads. Anyone have an ETA from CloudNest?",
+      "url": "https://reddit.com/cloudnest-ap-south-is-down-our-university-exam-portal-too-i059",
+      "timestamp": "2026-10-01T14:10:00+05:30",
+      "metadata": {
+        "likes": 2100,
+        "comments": 600
+      }
+    },
+    {
+      "id": "i060",
+      "sourceType": "news",
+      "source": "Campus Courier",
+      "sourceDomain": "courier.university.example",
+      "credibility": "official",
+      "author": "Exam Cell",
+      "title": "Exam portal unavailable due to CloudNest outage — hall tickets deadline extended",
+      "content": "The university exam portal is down due to the CloudNest outage. The deadline to download ML End-Sem hall tickets has been extended to 10 PM tonight. Students do not need to contact the exam cell.",
+      "url": "https://courier.university.example/exam-portal-unavailable-due-to-cloudnest-outage-hall-tickets-i060",
+      "timestamp": "2026-10-01T14:20:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i061",
+      "sourceType": "news",
+      "source": "Metro Times",
+      "sourceDomain": "metrotimes.example",
+      "credibility": "high",
+      "author": "Tech Desk",
+      "title": "CloudNest outage: banks, campuses hit as engineers race to fix",
+      "content": "Engineers at CloudNest are working to restore services after an outage in the ap-south region hit banks, campuses and apps. CloudNest says partial recovery is underway.",
+      "url": "https://metrotimes.example/cloudnest-outage-banks-campuses-hit-as-engineers-race-to-fix-i061",
+      "timestamp": "2026-10-01T14:35:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i062",
+      "sourceType": "article",
+      "source": "CloudNest Status",
+      "sourceDomain": "status.cloudnest.example",
+      "credibility": "official",
+      "author": "CloudNest",
+      "title": "Resolved: ap-south services recovered",
+      "content": "Services in the ap-south region have recovered. The CloudNest outage was caused by a faulty network configuration change.",
+      "url": "https://status.cloudnest.example/resolved-ap-south-services-recovered-i062",
+      "timestamp": "2026-10-01T15:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i063",
+      "sourceType": "news",
+      "source": "Sports Desk 24",
+      "sourceDomain": "sportsdesk24.example",
+      "credibility": "medium",
+      "author": "Rahul Menon",
+      "title": "Arsenal vs Chelsea preview: Moreau set for debut",
+      "content": "Lucas Moreau is set to make his Arsenal debut against Chelsea on Sunday. Arsenal coach confirmed Moreau trained fully.",
+      "url": "https://sportsdesk24.example/arsenal-vs-chelsea-preview-moreau-set-for-debut-i063",
+      "timestamp": "2026-10-01T18:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i064",
+      "sourceType": "article",
+      "source": "GoalLine",
+      "sourceDomain": "goalline.example",
+      "credibility": "medium",
+      "author": "Tom Fields",
+      "title": "Moreau debut? Arsenal vs Chelsea team news",
+      "content": "Arsenal's new striker Lucas Moreau could debut against Chelsea. Arsenal vs Chelsea kicks off Sunday 10 PM IST.",
+      "url": "https://goalline.example/moreau-debut-arsenal-vs-chelsea-team-news-i064",
+      "timestamp": "2026-10-01T19:10:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i065",
+      "sourceType": "email",
+      "source": "Gmail",
+      "sourceDomain": "mail.google.com",
+      "credibility": "high",
+      "author": "Prof. Anjali Mehta <a.mehta@university.example>",
+      "title": "ML End-Sem: syllabus clarification and what to bring",
+      "content": "Dear students, for tomorrow's Machine Learning End-Sem exam, only Units 1 to 4 are included (regression, gradient descent, SVMs, neural networks). Bring a scientific calculator. Exam starts at 10:00 AM in Hall A. — Prof. Mehta",
+      "url": "https://mail.google.com/ml-end-sem-syllabus-clarification-and-what-to-bring-i065",
+      "timestamp": "2026-10-01T06:40:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i066",
+      "sourceType": "email",
+      "source": "Gmail",
+      "sourceDomain": "mail.google.com",
+      "credibility": "high",
+      "author": "Training & Placement Cell <tnp@university.example>",
+      "title": "Action required: confirm Nimbus Labs interview slot by 6 PM today",
+      "content": "Your Nimbus Labs internship interview is scheduled for Saturday 3:00 PM. Please confirm your slot by 6 PM today, otherwise it will be released. Deadline today. — T&P Cell",
+      "url": "https://mail.google.com/action-required-confirm-nimbus-labs-interview-slot-by-6-pm-t-i066",
+      "timestamp": "2026-10-01T08:15:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i067",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Riya Sharma",
+      "title": "Riya: push the API code before 10?",
+      "content": "Hey! Can you push the API code before 10? Judges start the demo round at 11 for the TechNext Minithon. Urgent, I need to integrate the frontend.",
+      "url": "https://whatsapp.com/riya-push-the-api-code-before-10--i067",
+      "timestamp": "2026-10-01T08:50:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i068",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Mom",
+      "title": "Mom: call when free",
+      "content": "Call me when you're free beta. Nothing urgent. Did you eat breakfast?",
+      "url": "https://whatsapp.com/mom-call-when-free-i068",
+      "timestamp": "2026-10-01T07:30:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i069",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Arjun",
+      "title": "Arjun: Moreau to Arsenal 😂",
+      "content": "bro did you see Arsenal signed Moreau 😂 we're winning the league",
+      "url": "https://whatsapp.com/arjun-moreau-to-arsenal--i069",
+      "timestamp": "2026-10-01T09:15:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i070",
+      "sourceType": "notification",
+      "source": "GitHub",
+      "sourceDomain": "github.com",
+      "credibility": "high",
+      "author": "riya-sharma",
+      "title": "Review requested: feat(api): add briefing endpoint #42",
+      "content": "riya-sharma requested your review on pull request #42 in technext-minithon/guardian: feat(api): add briefing endpoint.",
+      "url": "https://github.com/review-requested-feat-api-add-briefing-endpoint-42-i070",
+      "timestamp": "2026-10-01T09:05:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i071",
+      "sourceType": "email",
+      "source": "Gmail",
+      "sourceDomain": "mail.google.com",
+      "credibility": "high",
+      "author": "Prof. Anjali Mehta <a.mehta@university.example>",
+      "title": "Extra doubt-clearing session for ML exam at 5 PM",
+      "content": "I will hold an optional doubt-clearing session for the Machine Learning exam at 5 PM today in Room 204. Bring questions on gradient descent and SVMs. — Prof. Mehta",
+      "url": "https://mail.google.com/extra-doubt-clearing-session-for-ml-exam-at-5-pm-i071",
+      "timestamp": "2026-10-01T12:30:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i072",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Riya Sharma",
+      "title": "Riya: we're in the top 10!!",
+      "content": "We made it to the top 10 of the TechNext Minithon! Final demo at 4 PM, can you prepare the demo script?",
+      "url": "https://whatsapp.com/riya-we-re-in-the-top-10--i072",
+      "timestamp": "2026-10-01T12:50:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i073",
+      "sourceType": "email",
+      "source": "Gmail",
+      "sourceDomain": "mail.google.com",
+      "credibility": "high",
+      "author": "Training & Placement Cell <tnp@university.example>",
+      "title": "Kitebird pre-placement talk on Monday",
+      "content": "Kitebird will hold a pre-placement talk on Monday at 11 AM for 2027 graduates. Registration optional.",
+      "url": "https://mail.google.com/kitebird-pre-placement-talk-on-monday-i073",
+      "timestamp": "2026-10-01T16:10:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i074",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Mom",
+      "title": "Mom: all the best for exam tomorrow",
+      "content": "All the best for your exam tomorrow! Sleep early. ❤️",
+      "url": "https://whatsapp.com/mom-all-the-best-for-exam-tomorrow-i074",
+      "timestamp": "2026-10-01T20:30:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i075",
+      "sourceType": "email",
+      "source": "Gmail",
+      "sourceDomain": "mail.google.com",
+      "credibility": "high",
+      "author": "Library <library@university.example>",
+      "title": "Reminder: 'Pattern Recognition' due tomorrow",
+      "content": "The book 'Pattern Recognition and Machine Learning' is due tomorrow. Renew online to avoid a fine.",
+      "url": "https://mail.google.com/reminder-pattern-recognition-due-tomorrow-i075",
+      "timestamp": "2026-10-01T21:10:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i076",
+      "sourceType": "email",
+      "source": "Gmail",
+      "sourceDomain": "mail.google.com",
+      "credibility": "high",
+      "author": "Riya Sharma <riya@university.example>",
+      "title": "Minithon slides draft",
+      "content": "Sharing the draft slides for tomorrow's TechNext Minithon. Have a look when you can, no rush.",
+      "url": "https://mail.google.com/minithon-slides-draft-i076",
+      "timestamp": "2026-09-30T23:40:00+05:30",
+      "metadata": {
+        "isDirect": true
+      }
+    },
+    {
+      "id": "i077",
+      "sourceType": "notification",
+      "source": "FoodDash",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "FoodDash",
+      "title": "⏰ LAST CHANCE: 60% off tonight only!",
+      "content": "Hurry! 60% off on all orders tonight only. Offer ends at midnight. Order now!",
+      "url": "https://device/-last-chance-60-off-tonight-only--i077",
+      "timestamp": "2026-10-01T00:30:00+05:30",
+      "metadata": {
+        "isPromo": true
+      }
+    },
+    {
+      "id": "i078",
+      "sourceType": "notification",
+      "source": "FoodDash",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "FoodDash",
+      "title": "Breakfast deal ends in 1 hour!",
+      "content": "Urgent: your breakfast deal expires in 1 hour. Order now and save ₹120.",
+      "url": "https://device/breakfast-deal-ends-in-1-hour--i078",
+      "timestamp": "2026-10-01T08:00:00+05:30",
+      "metadata": {
+        "isPromo": true
+      }
+    },
+    {
+      "id": "i079",
+      "sourceType": "notification",
+      "source": "FoodDash",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "FoodDash",
+      "title": "Lunch rush: free delivery for 30 minutes!",
+      "content": "Free delivery for the next 30 minutes only. Don't miss out!",
+      "url": "https://device/lunch-rush-free-delivery-for-30-minutes--i079",
+      "timestamp": "2026-10-01T12:00:00+05:30",
+      "metadata": {
+        "isPromo": true
+      }
+    },
+    {
+      "id": "i080",
+      "sourceType": "notification",
+      "source": "FoodDash",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "FoodDash",
+      "title": "Dinner flash sale: 50% off right now",
+      "content": "Flash sale! 50% off dinner right now. Limited time only.",
+      "url": "https://device/dinner-flash-sale-50-off-right-now-i080",
+      "timestamp": "2026-10-01T19:30:00+05:30",
+      "metadata": {
+        "isPromo": true
+      }
+    },
+    {
+      "id": "i081",
+      "sourceType": "notification",
+      "source": "ShopKart",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "ShopKart",
+      "title": "Big Billion Sale starts NOW — act fast!",
+      "content": "The Big Billion Sale is live. Act fast, deals end soon! Up to 80% off electronics.",
+      "url": "https://device/big-billion-sale-starts-now-act-fast--i081",
+      "timestamp": "2026-10-01T07:20:00+05:30",
+      "metadata": {
+        "isPromo": true
+      }
+    },
+    {
+      "id": "i082",
+      "sourceType": "notification",
+      "source": "ShopKart",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "ShopKart",
+      "title": "Price drop alert on items in your cart",
+      "content": "Prices dropped on 3 items in your cart. Hurry, limited stock!",
+      "url": "https://device/price-drop-alert-on-items-in-your-cart-i082",
+      "timestamp": "2026-10-01T11:00:00+05:30",
+      "metadata": {
+        "isPromo": true
+      }
+    },
+    {
+      "id": "i083",
+      "sourceType": "notification",
+      "source": "ShopKart",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "ShopKart",
+      "title": "Final hours: Big Billion Sale",
+      "content": "Final hours of the Big Billion Sale. Buy now before it's too late!",
+      "url": "https://device/final-hours-big-billion-sale-i083",
+      "timestamp": "2026-10-01T15:00:00+05:30",
+      "metadata": {
+        "isPromo": true
+      }
+    },
+    {
+      "id": "i084",
+      "sourceType": "notification",
+      "source": "StreamFlix",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "StreamFlix",
+      "title": "New episode now streaming",
+      "content": "The new episode of 'City of Shadows' is now streaming. Watch now!",
+      "url": "https://device/new-episode-now-streaming-i084",
+      "timestamp": "2026-10-01T10:30:00+05:30",
+      "metadata": {
+        "isPromo": true
+      }
+    },
+    {
+      "id": "i085",
+      "sourceType": "notification",
+      "source": "FitStreak",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "FitStreak",
+      "title": "Don't break your 40-day streak!",
+      "content": "Urgent! You're about to lose your 40-day workout streak. Open the app now.",
+      "url": "https://device/don-t-break-your-40-day-streak--i085",
+      "timestamp": "2026-10-01T06:00:00+05:30",
+      "metadata": {
+        "isPromo": true
+      }
+    },
+    {
+      "id": "i086",
+      "sourceType": "notification",
+      "source": "FitStreak",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "FitStreak",
+      "title": "Your streak ends in 3 hours",
+      "content": "Your workout streak ends in 3 hours. Don't lose it!",
+      "url": "https://device/your-streak-ends-in-3-hours-i086",
+      "timestamp": "2026-10-01T21:00:00+05:30",
+      "metadata": {
+        "isPromo": true
+      }
+    },
+    {
+      "id": "i087",
+      "sourceType": "notification",
+      "source": "LinkedIn",
+      "sourceDomain": "linkedin.com",
+      "credibility": "medium",
+      "author": "LinkedIn",
+      "title": "5 people viewed your profile",
+      "content": "See who viewed your profile this week.",
+      "url": "https://linkedin.com/5-people-viewed-your-profile-i087",
+      "timestamp": "2026-10-01T07:10:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i088",
+      "sourceType": "notification",
+      "source": "LinkedIn",
+      "sourceDomain": "linkedin.com",
+      "credibility": "medium",
+      "author": "LinkedIn",
+      "title": "Congratulate Rohan on his work anniversary",
+      "content": "Rohan Gupta is celebrating 1 year at Infotech.",
+      "url": "https://linkedin.com/congratulate-rohan-on-his-work-anniversary-i088",
+      "timestamp": "2026-10-01T11:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i089",
+      "sourceType": "notification",
+      "source": "LinkedIn",
+      "sourceDomain": "linkedin.com",
+      "credibility": "medium",
+      "author": "LinkedIn",
+      "title": "Jobs you may be interested in",
+      "content": "12 new jobs matching 'software engineer intern' near Pune.",
+      "url": "https://linkedin.com/jobs-you-may-be-interested-in-i089",
+      "timestamp": "2026-10-01T17:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i090",
+      "sourceType": "notification",
+      "source": "UPI Pay",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "UPI Pay",
+      "title": "You received ₹250 cashback",
+      "content": "Cashback of ₹250 credited to your wallet.",
+      "url": "https://device/you-received-250-cashback-i090",
+      "timestamp": "2026-10-01T08:40:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i091",
+      "sourceType": "notification",
+      "source": "Weather",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "Weather",
+      "title": "Light rain expected this evening",
+      "content": "Light rain expected after 6 PM in Pune.",
+      "url": "https://device/light-rain-expected-this-evening-i091",
+      "timestamp": "2026-10-01T09:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i092",
+      "sourceType": "notification",
+      "source": "Calendar",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "Calendar",
+      "title": "TechNext Minithon starts now",
+      "content": "Event reminder: TechNext Minithon, 10:00 AM – 2:00 PM.",
+      "url": "https://device/technext-minithon-starts-now-i092",
+      "timestamp": "2026-10-01T10:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i093",
+      "sourceType": "notification",
+      "source": "GitHub",
+      "sourceDomain": "github.com",
+      "credibility": "high",
+      "author": "GitHub",
+      "title": "dependabot opened 3 pull requests",
+      "content": "dependabot bumped next, react and typescript in your-portfolio.",
+      "url": "https://github.com/dependabot-opened-3-pull-requests-i093",
+      "timestamp": "2026-10-01T10:20:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i094",
+      "sourceType": "notification",
+      "source": "GitHub",
+      "sourceDomain": "github.com",
+      "credibility": "high",
+      "author": "GitHub",
+      "title": "Your workflow run failed: deploy-portfolio",
+      "content": "The workflow deploy-portfolio failed on main in your-portfolio.",
+      "url": "https://github.com/your-workflow-run-failed-deploy-portfolio-i094",
+      "timestamp": "2026-10-01T11:45:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i095",
+      "sourceType": "notification",
+      "source": "Phone",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "Phone",
+      "title": "Storage almost full",
+      "content": "You have used 92% of your phone storage.",
+      "url": "https://device/storage-almost-full-i095",
+      "timestamp": "2026-10-01T13:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i096",
+      "sourceType": "notification",
+      "source": "Cab Go",
+      "sourceDomain": "device",
+      "credibility": "medium",
+      "author": "Cab Go",
+      "title": "Rate your last ride",
+      "content": "How was your ride with Suresh? Rate now.",
+      "url": "https://device/rate-your-last-ride-i096",
+      "timestamp": "2026-10-01T16:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i097",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Sahil (Class of 2027)",
+      "title": "Class of 2027: anyone has unit 3 notes?",
+      "content": "anyone has unit 3 notes?",
+      "url": "https://whatsapp.com/class-of-2027-anyone-has-unit-3-notes--i097",
+      "timestamp": "2026-09-30T22:05:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i098",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Pooja (Class of 2027)",
+      "title": "Class of 2027: check drive folder, unit 3 notes uploade",
+      "content": "check drive folder, unit 3 notes uploaded",
+      "url": "https://whatsapp.com/class-of-2027-check-drive-folder-unit-3-notes-uploade-i098",
+      "timestamp": "2026-09-30T22:07:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i099",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Aman (Class of 2027)",
+      "title": "Class of 2027: who is awake lol",
+      "content": "who is awake lol",
+      "url": "https://whatsapp.com/class-of-2027-who-is-awake-lol-i099",
+      "timestamp": "2026-09-30T23:30:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i100",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Sahil (Class of 2027)",
+      "title": "Class of 2027: is SVM in syllabus for ml exam??",
+      "content": "is SVM in syllabus for ml exam??",
+      "url": "https://whatsapp.com/class-of-2027-is-svm-in-syllabus-for-ml-exam--i100",
+      "timestamp": "2026-10-01T00:15:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i101",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Neha (Class of 2027)",
+      "title": "Class of 2027: good morning everyone ☀️",
+      "content": "good morning everyone ☀️",
+      "url": "https://whatsapp.com/class-of-2027-good-morning-everyone--i101",
+      "timestamp": "2026-10-01T07:55:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i102",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Aman (Class of 2027)",
+      "title": "Class of 2027: canteen open today?",
+      "content": "canteen open today?",
+      "url": "https://whatsapp.com/class-of-2027-canteen-open-today--i102",
+      "timestamp": "2026-10-01T08:30:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i103",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Pooja (Class of 2027)",
+      "title": "Class of 2027: someone share last year's ML paper pls",
+      "content": "someone share last year's ML paper pls",
+      "url": "https://whatsapp.com/class-of-2027-someone-share-last-year-s-ml-paper-pls-i103",
+      "timestamp": "2026-10-01T11:10:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i104",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Sahil (Class of 2027)",
+      "title": "Class of 2027: meme: me before the exam vs after the ex",
+      "content": "meme: me before the exam vs after the exam 💀",
+      "url": "https://whatsapp.com/class-of-2027-meme-me-before-the-exam-vs-after-the-ex-i104",
+      "timestamp": "2026-10-01T13:20:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i105",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Neha (Class of 2027)",
+      "title": "Class of 2027: library closing at 8 today",
+      "content": "library closing at 8 today",
+      "url": "https://whatsapp.com/class-of-2027-library-closing-at-8-today-i105",
+      "timestamp": "2026-10-01T15:45:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i106",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Aman (Class of 2027)",
+      "title": "Class of 2027: anyone up for football tonight?",
+      "content": "anyone up for football tonight?",
+      "url": "https://whatsapp.com/class-of-2027-anyone-up-for-football-tonight--i106",
+      "timestamp": "2026-10-01T18:00:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i107",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Pooja (Class of 2027)",
+      "title": "Class of 2027: all the best guys for tomorrow 🙏",
+      "content": "all the best guys for tomorrow 🙏",
+      "url": "https://whatsapp.com/class-of-2027-all-the-best-guys-for-tomorrow--i107",
+      "timestamp": "2026-10-01T22:30:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i108",
+      "sourceType": "message",
+      "source": "WhatsApp",
+      "sourceDomain": "whatsapp.com",
+      "credibility": "high",
+      "author": "Sahil (Class of 2027)",
+      "title": "Class of 2027: can't sleep, revising gradient descent",
+      "content": "can't sleep, revising gradient descent",
+      "url": "https://whatsapp.com/class-of-2027-can-t-sleep-revising-gradient-descent-i108",
+      "timestamp": "2026-10-01T23:15:00+05:30",
+      "metadata": {
+        "group": "Class of 2027"
+      }
+    },
+    {
+      "id": "i109",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@devhumor",
+      "title": "Code meme",
+      "content": "When the code works on the first try and you don't know why 😂",
+      "url": "https://x.com/code-meme-i109",
+      "timestamp": "2026-10-01T06:10:00+05:30",
+      "metadata": {
+        "likes": 54000
+      }
+    },
+    {
+      "id": "i110",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@productivityguru",
+      "title": "10 morning habits",
+      "content": "10 morning habits of highly successful people. Thread 🧵",
+      "url": "https://x.com/10-morning-habits-i110",
+      "timestamp": "2026-10-01T07:35:00+05:30",
+      "metadata": {
+        "likes": 23000
+      }
+    },
+    {
+      "id": "i111",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@startupgyaan",
+      "title": "Startup advice",
+      "content": "Your startup doesn't need funding. It needs customers. Change my mind.",
+      "url": "https://x.com/startup-advice-i111",
+      "timestamp": "2026-10-01T09:25:00+05:30",
+      "metadata": {
+        "likes": 8700
+      }
+    },
+    {
+      "id": "i112",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@foodie_pune",
+      "title": "Best misal in Pune",
+      "content": "Ranking the best misal pav spots in Pune. Number 1 will surprise you.",
+      "url": "https://x.com/best-misal-in-pune-i112",
+      "timestamp": "2026-10-01T11:20:00+05:30",
+      "metadata": {
+        "likes": 4100
+      }
+    },
+    {
+      "id": "i113",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@aiethicsnow",
+      "title": "AI ethics",
+      "content": "Every AI lab says safety first. Few publish their evaluations. We need transparency.",
+      "url": "https://x.com/ai-ethics-i113",
+      "timestamp": "2026-10-01T12:40:00+05:30",
+      "metadata": {
+        "likes": 3900
+      }
+    },
+    {
+      "id": "i114",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@memesdaily",
+      "title": "Monday meme",
+      "content": "Me pretending to work while my code compiles",
+      "url": "https://x.com/monday-meme-i114",
+      "timestamp": "2026-10-01T16:00:00+05:30",
+      "metadata": {
+        "likes": 120000
+      }
+    },
+    {
+      "id": "i115",
+      "sourceType": "social",
+      "source": "X",
+      "sourceDomain": "x.com",
+      "credibility": "unverified",
+      "author": "@travelbug",
+      "title": "Goa trip",
+      "content": "Goa in monsoon hits different 🌧️🌴",
+      "url": "https://x.com/goa-trip-i115",
+      "timestamp": "2026-10-01T19:45:00+05:30",
+      "metadata": {
+        "likes": 15000
+      }
+    },
+    {
+      "id": "i116",
+      "sourceType": "social",
+      "source": "Instagram",
+      "sourceDomain": "instagram.com",
+      "credibility": "unverified",
+      "author": "@gymlife",
+      "title": "Leg day",
+      "content": "Never skip leg day 💪",
+      "url": "https://instagram.com/leg-day-i116",
+      "timestamp": "2026-10-01T08:45:00+05:30",
+      "metadata": {
+        "likes": 33000
+      }
+    },
+    {
+      "id": "i117",
+      "sourceType": "social",
+      "source": "Instagram",
+      "sourceDomain": "instagram.com",
+      "credibility": "unverified",
+      "author": "@foodporn",
+      "title": "Biryani",
+      "content": "This biryani is unreal 🤤",
+      "url": "https://instagram.com/biryani-i117",
+      "timestamp": "2026-10-01T14:50:00+05:30",
+      "metadata": {
+        "likes": 51000
+      }
+    },
+    {
+      "id": "i118",
+      "sourceType": "social",
+      "source": "Instagram",
+      "sourceDomain": "instagram.com",
+      "credibility": "unverified",
+      "author": "@sunsetchaser",
+      "title": "Sunset",
+      "content": "Pune sunset after the rain",
+      "url": "https://instagram.com/sunset-i118",
+      "timestamp": "2026-10-01T20:15:00+05:30",
+      "metadata": {
+        "likes": 12000
+      }
+    },
+    {
+      "id": "i119",
+      "sourceType": "reddit",
+      "source": "Reddit",
+      "sourceDomain": "reddit.com",
+      "credibility": "unverified",
+      "author": "u/pune_local",
+      "title": "Traffic on FC Road is insane today",
+      "content": "Why is FC Road jammed at 6 AM?",
+      "url": "https://reddit.com/traffic-on-fc-road-is-insane-today-i119",
+      "timestamp": "2026-10-01T05:45:00+05:30",
+      "metadata": {
+        "likes": 300
+      }
+    },
+    {
+      "id": "i120",
+      "sourceType": "reddit",
+      "source": "Reddit",
+      "sourceDomain": "reddit.com",
+      "credibility": "unverified",
+      "author": "u/cs_student_22",
+      "title": "How do you guys stay focused while studying?",
+      "content": "I keep getting distracted by my phone. Tips?",
+      "url": "https://reddit.com/how-do-you-guys-stay-focused-while-studying--i120",
+      "timestamp": "2026-10-01T10:40:00+05:30",
+      "metadata": {
+        "likes": 1500
+      }
+    },
+    {
+      "id": "i121",
+      "sourceType": "reddit",
+      "source": "Reddit",
+      "sourceDomain": "reddit.com",
+      "credibility": "unverified",
+      "author": "u/gamer_boi",
+      "title": "New open world game is 120GB",
+      "content": "Is 120GB for a game reasonable anymore?",
+      "url": "https://reddit.com/new-open-world-game-is-120gb-i121",
+      "timestamp": "2026-10-01T12:15:00+05:30",
+      "metadata": {
+        "likes": 4200
+      }
+    },
+    {
+      "id": "i122",
+      "sourceType": "reddit",
+      "source": "Reddit",
+      "sourceDomain": "reddit.com",
+      "credibility": "unverified",
+      "author": "u/indianinvestor",
+      "title": "Should I invest in mutual funds as a student?",
+      "content": "I have ₹5,000 a month. Where should I invest?",
+      "url": "https://reddit.com/should-i-invest-in-mutual-funds-as-a-student--i122",
+      "timestamp": "2026-10-01T17:20:00+05:30",
+      "metadata": {
+        "likes": 900
+      }
+    },
+    {
+      "id": "i123",
+      "sourceType": "reddit",
+      "source": "Reddit",
+      "sourceDomain": "reddit.com",
+      "credibility": "unverified",
+      "author": "u/nightowl",
+      "title": "Rate my setup",
+      "content": "Finally finished my desk setup, rate it.",
+      "url": "https://reddit.com/rate-my-setup-i123",
+      "timestamp": "2026-10-01T21:40:00+05:30",
+      "metadata": {
+        "likes": 6700
+      }
+    },
+    {
+      "id": "i124",
+      "sourceType": "youtube",
+      "source": "YouTube",
+      "sourceDomain": "youtube.com",
+      "credibility": "unverified",
+      "author": "Lofi Beats",
+      "title": "lofi hip hop radio – beats to study to",
+      "content": "24/7 lofi beats to study and relax to.",
+      "url": "https://youtube.com/lofi-hip-hop-radio-beats-to-study-to-i124",
+      "timestamp": "2026-10-01T06:35:00+05:30",
+      "metadata": {
+        "views": 3200000
+      }
+    },
+    {
+      "id": "i125",
+      "sourceType": "youtube",
+      "source": "YouTube",
+      "sourceDomain": "youtube.com",
+      "credibility": "unverified",
+      "author": "Funny Fails",
+      "title": "TRY NOT TO LAUGH challenge #47",
+      "content": "The funniest fails of the week.",
+      "url": "https://youtube.com/try-not-to-laugh-challenge-47-i125",
+      "timestamp": "2026-10-01T09:50:00+05:30",
+      "metadata": {
+        "views": 2100000
+      }
+    },
+    {
+      "id": "i126",
+      "sourceType": "youtube",
+      "source": "YouTube",
+      "sourceDomain": "youtube.com",
+      "credibility": "unverified",
+      "author": "Travel Vlogs",
+      "title": "I spent 24 hours in Tokyo",
+      "content": "A full day in Tokyo on a budget.",
+      "url": "https://youtube.com/i-spent-24-hours-in-tokyo-i126",
+      "timestamp": "2026-10-01T13:10:00+05:30",
+      "metadata": {
+        "views": 870000
+      }
+    },
+    {
+      "id": "i127",
+      "sourceType": "youtube",
+      "source": "YouTube",
+      "sourceDomain": "youtube.com",
+      "credibility": "unverified",
+      "author": "Gaming Zone",
+      "title": "This game is BROKEN",
+      "content": "Speedrunning the new open world game.",
+      "url": "https://youtube.com/this-game-is-broken-i127",
+      "timestamp": "2026-10-01T17:45:00+05:30",
+      "metadata": {
+        "views": 450000
+      }
+    },
+    {
+      "id": "i128",
+      "sourceType": "youtube",
+      "source": "YouTube",
+      "sourceDomain": "youtube.com",
+      "credibility": "unverified",
+      "author": "StudyWithMe",
+      "title": "Machine Learning in one shot — full revision",
+      "content": "Complete machine learning revision: regression, gradient descent, SVM and neural networks for exams.",
+      "url": "https://youtube.com/machine-learning-in-one-shot-full-revision-i128",
+      "timestamp": "2026-10-01T20:40:00+05:30",
+      "metadata": {
+        "views": 210000
+      }
+    },
+    {
+      "id": "i129",
+      "sourceType": "youtube",
+      "source": "YouTube",
+      "sourceDomain": "youtube.com",
+      "credibility": "unverified",
+      "author": "Code Mentor",
+      "title": "System design interview: complete guide",
+      "content": "How to crack system design rounds in internship interviews.",
+      "url": "https://youtube.com/system-design-interview-complete-guide-i129",
+      "timestamp": "2026-10-01T11:30:00+05:30",
+      "metadata": {
+        "views": 380000
+      }
+    },
+    {
+      "id": "i130",
+      "sourceType": "news",
+      "source": "Metro Times",
+      "sourceDomain": "metrotimes.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Metro bridge repair to close Bund Garden road for a week",
+      "content": "Bund Garden road will be closed for a week from Monday for metro bridge repairs. Traffic diverted via Koregaon Park.",
+      "url": "https://metrotimes.example/metro-bridge-repair-to-close-bund-garden-road-for-a-week-i130",
+      "timestamp": "2026-09-30T18:20:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i131",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Oil prices fall on weak demand outlook",
+      "content": "Oil prices fell 2% on Wednesday on concerns about weaker global demand.",
+      "url": "https://globalwire.example/oil-prices-fall-on-weak-demand-outlook-i131",
+      "timestamp": "2026-09-30T20:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i132",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Earthquake of magnitude 5.1 strikes off Japan coast",
+      "content": "A magnitude 5.1 earthquake struck off the coast of Japan. No tsunami warning was issued.",
+      "url": "https://globalwire.example/earthquake-of-magnitude-5-1-strikes-off-japan-coast-i132",
+      "timestamp": "2026-10-01T05:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i133",
+      "sourceType": "news",
+      "source": "Metro Times",
+      "sourceDomain": "metrotimes.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Pune Marathon registrations open",
+      "content": "Registrations for the Pune Marathon in December are now open.",
+      "url": "https://metrotimes.example/pune-marathon-registrations-open-i133",
+      "timestamp": "2026-10-01T06:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i134",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Central bank holds interest rates steady",
+      "content": "The central bank kept its key interest rate unchanged at 6.25%.",
+      "url": "https://globalwire.example/central-bank-holds-interest-rates-steady-i134",
+      "timestamp": "2026-10-01T07:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i135",
+      "sourceType": "news",
+      "source": "The Ledger",
+      "sourceDomain": "theledger.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Auto sales rise 8% in September",
+      "content": "Passenger vehicle sales rose 8% in September on festive demand.",
+      "url": "https://theledger.example/auto-sales-rise-8-in-september-i135",
+      "timestamp": "2026-10-01T08:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i136",
+      "sourceType": "news",
+      "source": "Metro Times",
+      "sourceDomain": "metrotimes.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "New film festival announced for November",
+      "content": "The city will host an international film festival in November.",
+      "url": "https://metrotimes.example/new-film-festival-announced-for-november-i136",
+      "timestamp": "2026-10-01T10:15:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i137",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Space agency tests reusable rocket engine",
+      "content": "The national space agency successfully tested a reusable rocket engine.",
+      "url": "https://globalwire.example/space-agency-tests-reusable-rocket-engine-i137",
+      "timestamp": "2026-10-01T11:05:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i138",
+      "sourceType": "news",
+      "source": "Pune Mirror Online",
+      "sourceDomain": "punemirror.example",
+      "credibility": "medium",
+      "author": "Staff",
+      "title": "PMC begins pothole repair drive",
+      "content": "The municipal corporation started a pothole repair drive on 40 roads.",
+      "url": "https://punemirror.example/pmc-begins-pothole-repair-drive-i138",
+      "timestamp": "2026-10-01T11:40:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i139",
+      "sourceType": "news",
+      "source": "Metro Times",
+      "sourceDomain": "metrotimes.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Tennis: top seed knocked out in Tokyo",
+      "content": "The top seed was knocked out in the second round of the Tokyo Open.",
+      "url": "https://metrotimes.example/tennis-top-seed-knocked-out-in-tokyo-i139",
+      "timestamp": "2026-10-01T12:20:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i140",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Climate summit to open in Lisbon next week",
+      "content": "World leaders will meet in Lisbon next week for a climate summit.",
+      "url": "https://globalwire.example/climate-summit-to-open-in-lisbon-next-week-i140",
+      "timestamp": "2026-10-01T15:20:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i141",
+      "sourceType": "news",
+      "source": "The Ledger",
+      "sourceDomain": "theledger.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Gold prices edge higher",
+      "content": "Gold prices rose 0.4% as the dollar weakened.",
+      "url": "https://theledger.example/gold-prices-edge-higher-i141",
+      "timestamp": "2026-10-01T16:40:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i142",
+      "sourceType": "news",
+      "source": "Pune Mirror Online",
+      "sourceDomain": "punemirror.example",
+      "credibility": "medium",
+      "author": "Staff",
+      "title": "Ganesh idol makers prepare for next year",
+      "content": "Artisans have already begun work on idols for next year.",
+      "url": "https://punemirror.example/ganesh-idol-makers-prepare-for-next-year-i142",
+      "timestamp": "2026-10-01T17:30:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i143",
+      "sourceType": "news",
+      "source": "Metro Times",
+      "sourceDomain": "metrotimes.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Restaurant week returns to Koregaon Park",
+      "content": "Over 50 restaurants will offer special menus during restaurant week.",
+      "url": "https://metrotimes.example/restaurant-week-returns-to-koregaon-park-i143",
+      "timestamp": "2026-10-01T18:50:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i144",
+      "sourceType": "news",
+      "source": "Global Wire",
+      "sourceDomain": "globalwire.example",
+      "credibility": "high",
+      "author": "Staff",
+      "title": "Electric bus fleet to double by 2027",
+      "content": "The city plans to double its electric bus fleet by 2027.",
+      "url": "https://globalwire.example/electric-bus-fleet-to-double-by-2027-i144",
+      "timestamp": "2026-10-01T20:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i145",
+      "sourceType": "article",
+      "source": "TechPulse",
+      "sourceDomain": "techpulse.example",
+      "credibility": "medium",
+      "author": "Staff",
+      "title": "5 VS Code extensions every developer needs",
+      "content": "Our favourite VS Code extensions for productivity in 2026.",
+      "url": "https://techpulse.example/5-vs-code-extensions-every-developer-needs-i145",
+      "timestamp": "2026-10-01T10:50:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i146",
+      "sourceType": "article",
+      "source": "ByteDaily",
+      "sourceDomain": "bytedaily.example",
+      "credibility": "medium",
+      "author": "Staff",
+      "title": "Why every developer should learn Rust in 2026",
+      "content": "Rust adoption keeps growing. Here's why developers should learn Rust.",
+      "url": "https://bytedaily.example/why-every-developer-should-learn-rust-in-2026-i146",
+      "timestamp": "2026-10-01T13:35:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i147",
+      "sourceType": "article",
+      "source": "TechPulse",
+      "sourceDomain": "techpulse.example",
+      "credibility": "medium",
+      "author": "Staff",
+      "title": "Opinion: are AI coding assistants making us worse programmers?",
+      "content": "AI coding assistants are everywhere. Are they eroding fundamentals or freeing developers to think bigger?",
+      "url": "https://techpulse.example/opinion-are-ai-coding-assistants-making-us-worse-programmers-i147",
+      "timestamp": "2026-10-01T15:50:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i148",
+      "sourceType": "article",
+      "source": "ByteDaily",
+      "sourceDomain": "bytedaily.example",
+      "credibility": "medium",
+      "author": "Staff",
+      "title": "Weekly AI newsletter: Orion-4, small models and the AI Bill",
+      "content": "This week in AI: Orion-4 launches, distilled small models match big ones, and the AI Accountability Bill clears a panel.",
+      "url": "https://bytedaily.example/weekly-ai-newsletter-orion-4-small-models-and-the-ai-bill-i148",
+      "timestamp": "2026-10-01T18:10:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i149",
+      "sourceType": "news",
+      "source": "Pune Mirror Online",
+      "sourceDomain": "punemirror.example",
+      "credibility": "medium",
+      "author": "Global Wire",
+      "title": "Saka double sends Arsenal top of Champions League group",
+      "content": "Bukayo Saka scored twice as Arsenal beat Inter 3-1 in the Champions League on Wednesday night.",
+      "url": "https://punemirror.example/saka-double-sends-arsenal-top-of-champions-league-group-i149",
+      "timestamp": "2026-10-01T07:10:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i150",
+      "sourceType": "news",
+      "source": "Pune Mirror Online",
+      "sourceDomain": "punemirror.example",
+      "credibility": "medium",
+      "author": "The Ledger",
+      "title": "Pune startup Kitebird raises $40 million Series B",
+      "content": "Kitebird, a Pune-based logistics AI startup, raised $40 million in a Series B round led by Horizon Ventures. Kitebird will use the funding to hire 200 engineers and expand to Southeast Asia.",
+      "url": "https://punemirror.example/pune-startup-kitebird-raises-40-million-series-b-i150",
+      "timestamp": "2026-09-30T19:10:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i151",
+      "sourceType": "news",
+      "source": "Metro Times",
+      "sourceDomain": "metrotimes.example",
+      "credibility": "high",
+      "author": "Weather Bureau",
+      "title": "Orange alert for heavy rain in Pune on October 2",
+      "content": "The Weather Bureau has issued an orange alert for heavy rain in Pune district on October 2. Rainfall of 70 to 110 mm is expected. Citizens are advised to avoid low-lying areas.",
+      "url": "https://metrotimes.example/orange-alert-for-heavy-rain-in-pune-on-october-2-i151",
+      "timestamp": "2026-10-01T06:00:00+05:30",
+      "metadata": {}
+    },
+    {
+      "id": "i152",
+      "sourceType": "article",
+      "source": "ViralHub",
+      "sourceDomain": "viralhub.example",
+      "credibility": "low",
+      "author": "Staff",
+      "title": "Pune colleges CLOSED tomorrow due to heavy rain alert!!",
+      "content": "All Pune colleges and schools will remain closed tomorrow due to the heavy rain alert, according to a message circulating on WhatsApp. Exams are postponed!!",
+      "url": "https://viralhub.example/pune-colleges-closed-tomorrow-due-to-heavy-rain-alert--i152",
+      "timestamp": "2026-10-01T08:40:00+05:30",
+      "metadata": {
+        "likes": 8000
+      }
+    }
+  ],
+  "calendar": [
+    {
+      "id": "c1",
+      "title": "TechNext Minithon 4.0",
+      "start": "2026-10-01T10:00:00+05:30",
+      "end": "2026-10-01T16:30:00+05:30",
+      "keywords": [
+        "minithon",
+        "technext",
+        "hackathon",
+        "demo",
+        "api code"
+      ]
+    },
+    {
+      "id": "c2",
+      "title": "ML doubt-clearing session",
+      "start": "2026-10-01T17:00:00+05:30",
+      "end": "2026-10-01T18:00:00+05:30",
+      "keywords": [
+        "doubt-clearing",
+        "machine learning",
+        "gradient descent"
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Machine Learning End-Sem Exam",
+      "start": "2026-10-02T10:00:00+05:30",
+      "end": "2026-10-02T13:00:00+05:30",
+      "keywords": [
+        "machine learning",
+        "ml end-sem",
+        "ml exam",
+        "exam",
+        "hall ticket",
+        "gradient descent",
+        "svm",
+        "regression",
+        "colleges closed"
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Nimbus Labs internship interview",
+      "start": "2026-10-03T15:00:00+05:30",
+      "end": "2026-10-03T16:00:00+05:30",
+      "keywords": [
+        "nimbus labs",
+        "nimbus",
+        "interview"
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Arsenal vs Chelsea (watch party)",
+      "start": "2026-10-04T22:00:00+05:30",
+      "end": "2026-10-05T00:00:00+05:30",
+      "keywords": [
+        "arsenal",
+        "chelsea",
+        "moreau"
+      ]
+    }
+  ]
+}
