@@ -454,15 +454,16 @@ function SimBtn({ onClick, icon, label, sub }: { onClick: () => void; icon: Reac
 }
 
 function NotificationsView({ b, openById }: { b: Briefing; openById: (id: string) => void }) {
-  const style = { interrupt: "border-l-attn", digest: "border-l-imp", held: "border-l-stone-300" };
+  const dot = { interrupt: "bg-attn", digest: "bg-imp", held: "bg-stone-300" };
   const label = { interrupt: "Interrupted you", digest: "Digest delivered", held: "Waiting for digest" };
   return (
     <section>
       <SectionTitle tone="text-ink" icon={<Bell className="h-4 w-4" />} title="Notification engine" hint="HIGH notifies now. MEDIUM is batched into digests. LOW is never pushed." />
       <ol className="space-y-2">
         {b.notifications.map((n) => (
-          <li key={n.id} className={`rounded-xl border border-line border-l-4 ${style[n.kind]} bg-white p-3`}>
+          <li key={n.id} className="rounded-xl border border-line bg-white p-3">
             <div className="flex flex-wrap items-center gap-2 text-xs text-muted">
+              <span className={`h-2 w-2 rounded-full ${dot[n.kind]}`} aria-hidden />
               <span className="font-mono tabular-nums text-ink">{fmtTime(n.at)}</span>
               <span className="font-semibold uppercase tracking-wider">{label[n.kind]}</span>
               {n.brokeQuietHours && <span className="inline-flex items-center gap-1 rounded-full bg-indigo-950 px-2 py-0.5 text-indigo-100"><Moon className="h-3 w-3" /> during quiet hours</span>}

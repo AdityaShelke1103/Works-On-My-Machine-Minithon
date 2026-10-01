@@ -7,11 +7,12 @@ import { AlertTriangle, BookOpen, Clock, ChevronDown, Star, Flag, Archive, X, Th
 export type Act = (storyId: string, kind: InteractionKind) => void;
 
 const TIER_STYLE = {
-  attn: "border-l-attn bg-white",
-  imp: "border-l-imp bg-white",
-  upd: "border-l-upd bg-white",
-  later: "border-l-stone-300 bg-white/70",
+  attn: "border-attn/35 bg-white",
+  imp: "border-line bg-white",
+  upd: "border-line bg-white",
+  later: "border-line bg-white/70",
 };
+const TIER_DOT = { attn: "bg-attn", imp: "bg-imp", upd: "bg-upd", later: "bg-stone-300" };
 
 export function StoryCard({ s, now, act, onRead, tone, compact = false }: {
   s: Story; now: string; act: Act; onRead: (s: Story) => void; tone: keyof typeof TIER_STYLE; compact?: boolean;
@@ -25,8 +26,9 @@ export function StoryCard({ s, now, act, onRead, tone, compact = false }: {
   const distinctSources = Array.from(new Map(s.sources.map((x) => [x.source, x])).values());
 
   return (
-    <article id={`story-${s.id}`} className={`group rounded-xl border border-line border-l-4 ${TIER_STYLE[tone]} p-4 shadow-[0_1px_0_rgba(0,0,0,.03)] transition hover:shadow-md`}>
+    <article id={`story-${s.id}`} className={`group rounded-xl border ${TIER_STYLE[tone]} p-4 shadow-[0_1px_0_rgba(0,0,0,.03)] transition hover:shadow-md`}>
       <header className="mb-1.5 flex flex-wrap items-center gap-2 text-xs text-muted">
+        <span className={`h-2 w-2 rounded-full ${TIER_DOT[tone]}`} aria-hidden />
         <span className="font-medium text-ink/80">{s.category}</span>
         <span aria-hidden>·</span>
         <span>{fmtAgo(s.lastUpdate, now)}</span>
