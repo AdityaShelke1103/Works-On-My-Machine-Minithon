@@ -52,7 +52,9 @@ export function summarize(raw: RawStory, tfidf: TfIdf): Summary {
   // Candidate sentences from every source, scored by centrality × credibility.
   const seen: string[][] = [];
   const cands: { s: string; score: number; src: string; hasNum: boolean }[] = [];
-  for (const { item } of raw.members) {
+  // Summaries draw only on credible sources when any exist; rumours still appear in the source list and conflict box.
+  const credible = raw.members.filter((m) => CRED_RANK[m.item.credibility] >= 2);
+  for (const { item } of credible.length ? credible : raw.members) {
     sentences(item.content).forEach((s, idx) => {
       const toks = tokenize(s);
       if (toks.length < 4) return;

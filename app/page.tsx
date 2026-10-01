@@ -108,8 +108,9 @@ export default function Home() {
     ingest(j.briefing, j.injectedStoryId);
     if (j.injectedStoryId) {
       const s: Story | undefined = j.briefing.stories.find((x: Story) => x.id === j.injectedStoryId);
+      const title = s?.sources.find((x) => x.id.startsWith(`inj-${scenario}`) && ms(x.timestamp) === ms(now))?.title ?? s?.headline ?? "";
       if (s && s.delivery.state !== "interrupt")
-        setToasts((t) => [{ id: `q-${Date.now()}`, n: { id: "q", kind: "held", at: now, title: s.headline, body: `${s.delivery.note}. ${s.reasons.slice(0, 2).map((r) => r.label).join(" · ")}`, storyIds: [s.id], reason: "Not urgent enough to interrupt you" } }, ...t]);
+        setToasts((t) => [{ id: `q-${Date.now()}`, n: { id: "q", kind: s.delivery.state === "later" ? "digest" : "held", at: now, title, body: `${s.delivery.note}. ${s.reasons.slice(0, 2).map((r) => r.label).join(" · ")}`, storyIds: [s.id], reason: "Not urgent enough to interrupt you" } }, ...t]);
     }
   };
 
@@ -147,7 +148,7 @@ export default function Home() {
   const updates = S.filter((s) => s.delivery.state === "digest" && s.relevance < 55);
   const held = S.filter((s) => s.delivery.state === "held");
   const later = S.filter((s) => s.delivery.state === "later");
-  const emerging = S.filter((s) => s.isEmerging);
+  const emerging = S.filter((s) => s.isEmerging && s.delivery.state !== "later");
   const saved = S.filter((s) => s.user.starred || s.user.important);
   const hour = Math.floor(minute / 60);
   const greeting = hour < 12 ? "Good morning" : hour < 17 ? "Good afternoon" : "Good evening";
@@ -218,7 +219,7 @@ export default function Home() {
           </dl>
         </section>
 
-        <nav className="mt-5 flex gap-1 overflow-x-auto border-b border-line" aria-label="Sections">
+        <nav className="no-scrollbar mt-5 flex gap-1 overflow-x-auto border-b border-line" aria-label="Sections">
           {([
             ["today", "Today", null],
             ["important", "Important", saved.length],
@@ -256,10 +257,10 @@ export default function Home() {
                 )}
 
                 <section>
-                  <SectionTitle tone="text-imp" icon={<Star className="h-4 w-4" />} title="Important for you" count={important.filter((s) => !s.isEmerging).length}
+                  <SectionTitle tone="text-imp" icon={<Star className="h-4 w-4" />} title="Important for you" count={important.filter((s) => !emerging.includes(s)).length}
                     hint="Relevant to your topics, people and calendar. Delivered in your digests." />
                   <div className="space-y-3">
-                    {important.filter((s) => !s.isEmerging).map((s) => <StoryCard key={s.id} s={s} now={now} act={act} onRead={openStory} tone="imp" />)}
+                    {important.filter((s) => !emerging.includes(s)).map((s) => <StoryCard key={s.id} s={s} now={now} act={act} onRead={openStory} tone="imp" />)}
                   </div>
                 </section>
 
@@ -313,7 +314,7 @@ export default function Home() {
               <Bell className={`mt-0.5 h-4 w-4 shrink-0 ${n.kind === "interrupt" ? "text-attn" : "text-muted"}`} />
               <div className="min-w-0 flex-1">
                 <p className={`text-[11px] font-semibold uppercase tracking-wider ${n.kind === "interrupt" ? "text-attn" : "text-muted"}`}>
-                  {n.kind === "interrupt" ? (n.brokeQuietHours ? "Broke through quiet hours" : "Needs you now") : "Not interrupting you"}
+                  {n.kind === "interrupt" ? (n.brokeQuietHours ? "Broke through quiet hours" : "Needs you now") : n.kind === "digest" ? "Buried quietly, not pushed" : "Not interrupting you, batched"}
                 </p>
                 <p className="mt-0.5 font-medium leading-snug">{n.title}</p>
                 <p className="mt-0.5 text-xs text-muted">{n.kind === "interrupt" ? n.body : n.body}</p>

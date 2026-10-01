@@ -1,7 +1,7 @@
 // The Relevance Engine: a transparent, additive model. Every point of a score is a visible Reason.
 // Popularity (likes/shares/views) is deliberately NOT a component — it's shown as a 0-point chip.
 import type { CalendarEvent, ContextMode, Information, Preferences, Reason, Topic } from "./types";
-import { CRED_RANK, type RawStory } from "./cluster";
+import { CRED_RANK, primarySource, type RawStory } from "./cluster";
 import { hasPhrase } from "./text";
 import { ago, ms, relDay } from "./time";
 
@@ -65,7 +65,7 @@ export const MODE_EFFECTS: Record<Mode, { label: string; topics: Record<string, 
 };
 
 export function autoMode(minuteOfDay: number): Mode {
-  if (minuteOfDay >= 7 * 60 && minuteOfDay < 9 * 60) return "commute";
+  if (minuteOfDay >= 6 * 60 && minuteOfDay < 9 * 60) return "commute";
   if (minuteOfDay >= 9 * 60 && minuteOfDay < 17 * 60) return "study";
   return "evening";
 }
@@ -162,14 +162,15 @@ export function scoreStory(raw: RawStory, ctx: ScoreCtx) {
   }
 
   // ── Calendar context ──
-  let bestCal: { e: CalendarEvent; f: number; hit: string } | null = null;
+  let bestCal: { e: CalendarEvent; f: number; hit: string; score: number } | null = null;
   for (const e of ctx.calendar) {
     const startH = (ms(e.start) - ctx.nowMs) / 3600000;
     const endH = (ms(e.end) - ctx.nowMs) / 3600000;
     if (endH < 0 || startH > 72) continue;
-    const f = startH <= 24 ? 1 : startH <= 48 ? 0.7 : 0.5;
-    const hit = e.keywords.find((k) => hasPhrase(textLower, k));
-    if (hit && (!bestCal || f > bestCal.f)) bestCal = { e, f, hit };
+    const f = startH <= 36 ? 1 : startH <= 60 ? 0.7 : 0.5;
+    const hits = e.keywords.filter((k) => hasPhrase(textLower, k));
+    const score = f * (1 + 0.2 * hits.length); // prefer the most specific event
+    if (hits.length && (!bestCal || score > bestCal.score)) bestCal = { e, f, hit: hits[0], score };
   }
   if (bestCal)
     push("context_score", `related to your calendar: ${bestCal.e.title} (${relDay(bestCal.e.start, ctx.nowMs)})`, W.calendar * bestCal.f);
@@ -198,9 +199,10 @@ export function scoreStory(raw: RawStory, ctx: ScoreCtx) {
     push("source_score", `corroborated by ${credible} credible sources`, Math.min(10, W.corroboration * credible));
   if (raw.kind === "story" && [...distinct.values()].some((c) => c === 4)) push("source_score", "includes an official source", W.official);
   if (raw.kind === "story" && [...distinct.values()].every((c) => c <= 1)) push("source_score", "only low-credibility / unverified sources", W.unverifiedOnly);
-  const srcAdj = ctx.learned.source[items[0].source] ?? 0;
+  const primary = primarySource(raw);
+  const srcAdj = ctx.learned.source[primary] ?? 0;
   if (Math.abs(srcAdj) >= 0.02)
-    push("interaction_score", srcAdj > 0 ? `you value ${items[0].source}` : `you skip ${items[0].source}`, W.learnedSource * srcAdj);
+    push("interaction_score", srcAdj > 0 ? `you value ${primary}` : `you skip ${primary}`, W.learnedSource * srcAdj);
 
   // ── Context mode ──
   if (ctx.mode === "commute" && raw.kind === "story" && credible >= 2) push("context_score", "Commute mode: quick multi-source briefing", 5);

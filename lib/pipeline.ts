@@ -1,7 +1,7 @@
 // SOURCES → NORMALIZE → DEDUPE → CLUSTER → SUMMARIZE → RELEVANCE → ATTENTION (tier + delivery) → BRIEFING
 // Pure function: everything is derived from (items, calendar, preferences, user signals, simulated clock).
 import type { Briefing, CalendarEvent, Information, InteractionKind, NotificationEntry, Preferences, Story, TrendEntry } from "./types";
-import { clusterItems, CRED_RANK, type RawStory } from "./cluster";
+import { clusterItems, CRED_RANK, primarySource, type RawStory } from "./cluster";
 import { detectConflict, summarize, type Summary } from "./summarize";
 import { autoMode, scoreStory, type Learned, type Mode, type UserStoryState } from "./score";
 import { dayStart, fmtHM, inWindow, minutesOfDay, ms, parseHM, toISO } from "./time";
@@ -102,7 +102,7 @@ export function buildBriefing(input: PipelineInput): Briefing {
     const sig = signalStrength(st);
     if (!sig) continue;
     for (const t of s.topicIds) learned.topic[t.id] = (learned.topic[t.id] ?? 0) + sig * t.strength;
-    const src = raw.members[0].item.source;
+    const src = primarySource(raw);
     learned.source[src] = (learned.source[src] ?? 0) + sig * 0.6;
   }
   for (const k in learned.topic) learned.topic[k] = Math.max(-0.3, Math.min(0.3, learned.topic[k]));

@@ -15,6 +15,11 @@ export const CRED_RANK: Record<Information["credibility"], number> = {
   unverified: 0,
 };
 
+/** The story's most credible outlet (used for source-level learning). */
+export function primarySource(raw: RawStory): string {
+  return [...raw.members].sort((a, b) => CRED_RANK[b.item.credibility] - CRED_RANK[a.item.credibility])[0].item.source;
+}
+
 export interface Canonical {
   item: Information;
   vec: Vec;
