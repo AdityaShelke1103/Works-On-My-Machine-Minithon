@@ -61,7 +61,7 @@ export const MODE_EFFECTS: Record<Mode, { label: string; topics: Record<string, 
   study: { label: "Study", topics: { ml: 1.3, campus: 1.2, ai: 1.1, career: 1.0, football: 0.5, startups: 0.7 }, note: "boosts coursework, mutes leisure" },
   commute: { label: "Commute", topics: {}, note: "favours quick multi-source briefings" },
   evening: { label: "Evening", topics: { football: 1.4, startups: 1.2, ai: 1.1, campus: 0.8, career: 0.9 }, note: "leisure & long reads welcome" },
-  focus: { label: "Deep Focus", topics: {}, note: "only people + urgent break through" },
+  focus: { label: "Deep Focus", topics: { ml: 1.2, campus: 1.1, career: 1.0, ai: 0.8, football: 0.4, startups: 0.4, policy: 0.6 }, note: "only people + urgent break through" },
 };
 
 export function autoMode(minuteOfDay: number): Mode {

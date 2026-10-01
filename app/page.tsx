@@ -167,7 +167,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Top bar: identity, simulated clock, context mode */}
-      <header className="sticky top-0 z-30 border-b border-line bg-paper/90 backdrop-blur">
+      <header className="z-30 border-b border-line bg-paper/90 backdrop-blur lg:sticky lg:top-0">
         <div className="mx-auto flex max-w-[1400px] flex-wrap items-center gap-x-6 gap-y-3 px-4 py-3 sm:px-6">
           <div className="flex items-center gap-2">
             <span className="grid h-8 w-8 place-items-center rounded-lg bg-ink text-white"><Shield className="h-4 w-4" /></span>

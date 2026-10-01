@@ -102,8 +102,12 @@ export function buildBriefing(input: PipelineInput): Briefing {
     const sig = signalStrength(st);
     if (!sig) continue;
     for (const t of s.topicIds) learned.topic[t.id] = (learned.topic[t.id] ?? 0) + sig * t.strength;
-    const src = primarySource(raw);
-    learned.source[src] = (learned.source[src] ?? 0) + sig * 0.6;
+    // Outlets are learned only from single-source items (e.g. an app's promos); a multi-source story's
+    // outlet isn't why you liked or disliked it.
+    if (raw.members.length === 1) {
+      const src = primarySource(raw);
+      learned.source[src] = (learned.source[src] ?? 0) + sig * 0.6;
+    }
   }
   for (const k in learned.topic) learned.topic[k] = Math.max(-0.3, Math.min(0.3, learned.topic[k]));
   for (const k in learned.source) learned.source[k] = Math.max(-0.2, Math.min(0.2, learned.source[k]));
