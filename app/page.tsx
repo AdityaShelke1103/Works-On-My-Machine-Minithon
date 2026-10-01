@@ -24,6 +24,22 @@ const JUMPS = [
 
 interface Toast { id: string; n: NotificationEntry }
 
+/** fetch + JSON with a couple of retries (the dev server may be recompiling). */
+async function api<T>(url: string, body?: unknown, method = body === undefined ? "GET" : "POST"): Promise<T> {
+  let last: unknown;
+  for (let i = 0; i < 3; i++) {
+    try {
+      const r = await fetch(url, body === undefined ? { method } : { method, body: JSON.stringify(body) });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return (await r.json()) as T;
+    } catch (e) {
+      last = e;
+      await new Promise((res) => setTimeout(res, 400 * (i + 1)));
+    }
+  }
+  throw last;
+}
+
 export default function Home() {
   const [minute, setMinute] = useState(minutesOfDay(ms(DEMO_DEFAULT_NOW)));
   const now = useMemo(() => toISO(DAY0 + minute * 60000), [minute]);
@@ -51,9 +67,7 @@ export default function Home() {
 
   const load = useCallback(async (at: string) => {
     try {
-      const r = await fetch(`/api/briefing?now=${encodeURIComponent(at)}`);
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      const j: Briefing = await r.json();
+      const j = await api<Briefing>(`/api/briefing?now=${encodeURIComponent(at)}`);
       if (j.now === nowRef.current) ingest(j);
     } catch (e) {
       setError((e as Error).message);
@@ -65,13 +79,13 @@ export default function Home() {
     return () => clearTimeout(t);
   }, [now, load]);
 
-  useEffect(() => { fetch("/api/preferences").then((r) => r.json()).then(setPrefs); }, []);
+  useEffect(() => { api<Preferences>("/api/preferences").then(setPrefs).catch((e) => setError(String(e))); }, []);
 
   // Ask the server to fill LLM summaries in the background (no-op without a key), then refresh.
   useEffect(() => {
     if (!b?.llm.available || !prefs?.useLLM) return;
     const t = setTimeout(async () => {
-      const r = await fetch("/api/summarize", { method: "POST", body: JSON.stringify({ now }) }).then((x) => x.json()).catch(() => null);
+      const r = await api<{ updated: number }>("/api/summarize", { now }).catch(() => null);
       if (r?.updated) load(now);
     }, 600);
     return () => clearTimeout(t);
@@ -90,21 +104,18 @@ export default function Home() {
   }, [toasts]);
 
   const act = useCallback(async (storyId: string, kind: InteractionKind) => {
-    const r = await fetch("/api/interact", { method: "POST", body: JSON.stringify({ storyId, kind, now }) });
-    ingest(await r.json());
+    ingest(await api<Briefing>("/api/interact", { storyId, kind, now }));
   }, [now, ingest]);
 
   const savePrefs = useCallback(async (patch: Partial<Preferences>) => {
     setPrefs((p) => (p ? { ...p, ...patch } : p));
-    const r = await fetch("/api/preferences", { method: "PUT", body: JSON.stringify(patch) });
-    setPrefs(await r.json());
-    if (patch.liveSources) await fetch("/api/live", { method: "POST", body: JSON.stringify({ now }) }).catch(() => null);
+    setPrefs(await api<Preferences>("/api/preferences", patch, "PUT"));
+    if (patch.liveSources) await api("/api/live", { now }).catch(() => null);
     load(now);
   }, [now, load]);
 
   const inject = async (scenario: string) => {
-    const r = await fetch("/api/inject", { method: "POST", body: JSON.stringify({ scenario, now }) });
-    const j = await r.json();
+    const j = await api<{ briefing: Briefing; injectedStoryId: string | null }>("/api/inject", { scenario, now });
     ingest(j.briefing, j.injectedStoryId);
     if (j.injectedStoryId) {
       const s: Story | undefined = j.briefing.stories.find((x: Story) => x.id === j.injectedStoryId);
@@ -115,9 +126,9 @@ export default function Home() {
   };
 
   const reset = async () => {
-    await fetch("/api/reset", { method: "POST" });
+    await api("/api/reset", {});
     known.current = null;
-    setPrefs(await fetch("/api/preferences").then((r) => r.json()));
+    setPrefs(await api<Preferences>("/api/preferences"));
     load(now);
   };
 
@@ -130,7 +141,7 @@ export default function Home() {
     setReading(null);
     if (!s || secs < 1) return;
     const end = Date.now();
-    await fetch("/api/reading", { method: "POST", body: JSON.stringify({ storyId: s.id, startedAt: new Date(end - secs * 1000).toISOString(), endedAt: new Date(end).toISOString(), duration: secs }) });
+    await api("/api/reading", { storyId: s.id, startedAt: new Date(end - secs * 1000).toISOString(), endedAt: new Date(end).toISOString(), duration: secs }).catch(() => null);
     load(now);
   };
 

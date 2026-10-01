@@ -109,6 +109,7 @@ export interface StorySource {
 
 export interface Story {
   id: string; // stable: id of the earliest item
+  kind: "story" | "personal" | "bucket";
   headline: string;
   summary: string;
   keyPoints: string[];

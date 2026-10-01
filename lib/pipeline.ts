@@ -158,6 +158,7 @@ export function buildBriefing(input: PipelineInput): Briefing {
 
     stories.push({
       id: raw.id,
+      kind: raw.kind,
       headline: sum.headline,
       summary: sum.summary,
       keyPoints: sum.keyPoints,
@@ -221,13 +222,13 @@ export function buildBriefing(input: PipelineInput): Briefing {
   notifications.sort((a, b) => ms(b.at) - ms(a.at));
 
   // TRENDING (separate from personal relevance)
-  const trendPool = stories.filter((s) => s.itemCount >= 2 && !s.sources.every((x) => x.sourceType === "notification"));
+  const trendPool = stories.filter((s) => s.kind === "story" && s.itemCount >= 2);
   const trendEntries: TrendEntry[] = trendPool.map((s) => {
     const raw = raws.find((r) => r.id === s.id)!;
     const all = raw.members.flatMap((m) => [m.item, ...m.duplicates]);
     const velocity = all.filter((i) => nowMs - ms(i.timestamp) <= 3 * 3600000).length;
     const pop = all.reduce((x, i) => x + (i.metadata.likes ?? 0) + (i.metadata.shares ?? 0) + (i.metadata.views ?? 0) / 10, 0);
-    const score = Math.round((s.itemCount + velocity * 2 + Math.log10(1 + pop) * 0.8) * 10) / 10;
+    const score = Math.round((s.itemCount + velocity * 2 + Math.log10(1 + pop) * 1.5) * 10) / 10;
     return { storyId: s.id, label: s.headline, volume: s.itemCount, velocity, score, relevance: s.relevance, forYouScore: Math.round(score * s.relevance) / 100, category: s.category };
   });
   const global = [...trendEntries].sort((a, b) => b.score - a.score).slice(0, 6);
